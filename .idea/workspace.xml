@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="chore: add comments in AbstractFactory pattern">
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Person.java" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Builder pattern">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dp.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Nyi Zeya Header" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +70,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -76,15 +79,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.18295544",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.creational.builder.Main">
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.creational.prototype.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.singleton.Main" />
-      <module name="ds" />
+      <module name="dp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.singleton.*" />
@@ -97,7 +100,7 @@
     </configuration>
     <configuration name="me.nyizyea.designpatterns.creational.creational.abstract_factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.abstract_factory.Main" />
-      <module name="ds" />
+      <module name="dp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.abstract_factory.*" />
@@ -110,7 +113,7 @@
     </configuration>
     <configuration name="me.nyizyea.designpatterns.creational.creational.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.builder.Main" />
-      <module name="ds" />
+      <module name="dp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.builder.*" />
@@ -123,7 +126,7 @@
     </configuration>
     <configuration name="me.nyizyea.designpatterns.creational.creational.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.factory.Main" />
-      <module name="ds" />
+      <module name="dp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.factory.*" />
@@ -134,8 +137,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="me.nyizyea.designpatterns.creational.creational.prototype.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.prototype.Main" />
+      <module name="dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.prototype.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.builder.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.abstract_factory.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.factory.Main" />
@@ -153,7 +183,7 @@
       <updated>1725693984868</updated>
       <workItem from="1725693985665" duration="524000" />
       <workItem from="1725695560641" duration="1234000" />
-      <workItem from="1725716099117" duration="6000000" />
+      <workItem from="1725716099117" duration="7778000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
       <option name="closed" value="true" />
@@ -171,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725723760601</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add Builder pattern">
+      <option name="closed" value="true" />
+      <created>1725727860330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725727860330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +218,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add Singleton, Factory and AbstractFactory patterns" />
     <MESSAGE value="chore: add comments in AbstractFactory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add comments in AbstractFactory pattern" />
+    <MESSAGE value="feat: add Builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Builder pattern" />
   </component>
 </project>
