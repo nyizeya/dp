@@ -7,7 +7,8 @@ import me.nyizyea.designpatterns.creational.creational.abstract_factory.factory.
 import me.nyizyea.designpatterns.creational.creational.abstract_factory.interfaces.Car;
 
 /**
- * Check Factory pattern first to understand how Factory pattern works.
+ * WARNING: Check Factory pattern first to understand how Factory pattern works.
+ *
  * Abstract Factory pattern can be assumed as creating Factory for Factories.
  */
 public class Main {
