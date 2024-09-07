@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Builder pattern">
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dp.iml" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Prototype pattern">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Substraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Nyi Zeya Header" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +55,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -84,13 +88,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.creational.prototype.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.singleton.Main" />
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.behavioral.strategy.Main">
+    <configuration name="me.nyizyea.designpatterns.creational.behavioral.strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.strategy.Main" />
       <module name="dp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.singleton.*" />
+          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.strategy.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.prototype.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.builder.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.abstract_factory.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.factory.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +187,7 @@
       <updated>1725693984868</updated>
       <workItem from="1725693985665" duration="524000" />
       <workItem from="1725695560641" duration="1234000" />
-      <workItem from="1725716099117" duration="7778000" />
+      <workItem from="1725716099117" duration="9315000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
       <option name="closed" value="true" />
@@ -209,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725727860330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add Prototype pattern">
+      <option name="closed" value="true" />
+      <created>1725729418456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725729418456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +231,7 @@
     <MESSAGE value="feat: add Singleton, Factory and AbstractFactory patterns" />
     <MESSAGE value="chore: add comments in AbstractFactory pattern" />
     <MESSAGE value="feat: add Builder pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Builder pattern" />
+    <MESSAGE value="feat: add Prototype pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Prototype pattern" />
   </component>
 </project>
