@@ -4,36 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ds.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/enums/CarBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/enums/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/impl/ElectricCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/impl/PetrolCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/electric/ElectricFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/electric/ElectricToyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/petrol/PetrolFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/petrol/PetrolToyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/enums/AnimalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="chore: add comments in AbstractFactory pattern">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -108,7 +81,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.creational.abstract_factory.Main">
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.creational.builder.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.singleton.Main" />
       <module name="ds" />
@@ -135,6 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="me.nyizyea.designpatterns.creational.creational.builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.builder.Main" />
+      <module name="ds" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="me.nyizyea.designpatterns.creational.creational.factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.creational.factory.Main" />
       <module name="ds" />
@@ -150,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.builder.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.abstract_factory.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.creational.factory.Main" />
         <item itemvalue="Application.Main" />
@@ -166,11 +153,33 @@
       <updated>1725693984868</updated>
       <workItem from="1725693985665" duration="524000" />
       <workItem from="1725695560641" duration="1234000" />
-      <workItem from="1725716099117" duration="4482000" />
+      <workItem from="1725716099117" duration="6000000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
+      <option name="closed" value="true" />
+      <created>1725723641026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725723641027</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: add comments in AbstractFactory pattern">
+      <option name="closed" value="true" />
+      <created>1725723760601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725723760601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add Singleton, Factory and AbstractFactory patterns" />
+    <MESSAGE value="chore: add comments in AbstractFactory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add comments in AbstractFactory pattern" />
   </component>
 </project>
