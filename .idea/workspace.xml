@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add simple exercise for Command pattern">
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/SelectionSort.java" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Template pattern and key differences between itself and Strategy pattern">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/AbstractCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/NullCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/RealCustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,20 +89,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.behavioral.template.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.observer.Main" />
-      <module name="dp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.behavioral.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.creational.behavioral.null_object.Main">
     <configuration name="me.nyizyea.designpatterns.creational.behavioral.command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.command.Main" />
       <module name="dp" />
@@ -140,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="me.nyizyea.designpatterns.creational.behavioral.null_object.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.null_object.Main" />
+      <module name="dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.behavioral.null_object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="me.nyizyea.designpatterns.creational.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.template.Main" />
       <module name="dp" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.null_object.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.template.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.iterator.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.command.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.command.exercise.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,7 @@
       <workItem from="1725695560641" duration="1234000" />
       <workItem from="1725716099117" duration="11090000" />
       <workItem from="1725807551426" duration="5123000" />
-      <workItem from="1725886459872" duration="5168000" />
+      <workItem from="1725886459872" duration="6810000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
       <option name="closed" value="true" />
@@ -241,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725888300105</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add Template pattern and key differences between itself and Strategy pattern">
+      <option name="closed" value="true" />
+      <created>1725896577504</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725896577504</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +266,7 @@
     <MESSAGE value="feat: add Observer pattern" />
     <MESSAGE value="feat: add Command pattern" />
     <MESSAGE value="feat: add simple exercise for Command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add simple exercise for Command pattern" />
+    <MESSAGE value="feat: add Template pattern and key differences between itself and Strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Template pattern and key differences between itself and Strategy pattern" />
   </component>
 </project>
