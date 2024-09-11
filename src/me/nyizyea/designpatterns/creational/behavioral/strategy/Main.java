@@ -22,3 +22,14 @@ public class Main {
          */
     }
 }
+
+/**
+ * The Strategy pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one as a separate class, and make them interchangeable.
+ * The client can select the algorithm at runtime without altering the code that uses the algorithm.
+ * This pattern promotes the Open/Closed Principle, allowing new strategies to be added without modifying existing code.
+ * Key Concepts:
+ *
+ *     Strategy Interface: Declares a common interface for all supported algorithms.
+ *     Concrete Strategy: Implements the algorithm defined by the strategy interface.
+ *     Context: Maintains a reference to a strategy object and allows the client to set or change the strategy at runtime.
+ */

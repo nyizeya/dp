@@ -23,3 +23,15 @@ public class Main {
         switcher.executeCommands();
     }
 }
+
+/**
+ * The Command pattern is a behavioral design pattern that turns a request into a stand-alone object containing all the information about the request.
+ * This allows you to parameterize methods with different requests, queue or log requests, and support undoable operations.
+ * Key Concepts:
+ *
+ *     Command Interface: Declares an interface for executing operations.
+ *     Concrete Command: Implements the command interface and defines the relationship between a receiver and the action to be performed.
+ *     Receiver: The class that performs the actual work when the command is executed.
+ *     Invoker: Responsible for initiating requests by calling execute() on the command.
+ *     Client: Creates the concrete command and assigns it to the invoker.
+ */

@@ -33,3 +33,12 @@ public class Main {
         }
     }
 }
+
+/**
+ * The Singleton pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to that instance.
+ * It is often used in scenarios where a single object is needed to coordinate actions across the system, such as configuration managers, logging, or database connections.
+ * Key Features:
+ *
+ *     Single Instance: Only one instance of the class is created.
+ *     Global Access Point: The instance is accessed globally through a static method.
+ */

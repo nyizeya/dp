@@ -1,7 +1,5 @@
 package me.nyizyea.designpatterns.creational.behavioral.null_object;
 
-import me.nyizyea.designpatterns.creational.creational.abstract_factory.factory.AbstractCarFactory;
-
 /**
  * The Null Object pattern is a design pattern that provides a way to represent the absence of an object in a meaningful way. Instead of returning null when an object is not found or available, it returns a special object called a "null object" that represents the absence of an object.
  *

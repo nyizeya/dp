@@ -24,3 +24,14 @@ public class Main {
         observer.showData();
     }
 }
+
+/**
+ * The Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject) changes its state, all its dependents (called observers) are notified and updated automatically.
+ * This pattern is commonly used to implement distributed event-handling systems.
+ * Key Concepts:
+ *
+ *     Subject: The object that holds the state and sends notifications to observers when its state changes.
+ *     Observer: The object that wants to be notified of changes in the subject's state.
+ *     Concrete Subject: A subject implementation that stores state and notifies observers.
+ *     Concrete Observer: An observer implementation that updates itself based on changes in the subject.
+ */
