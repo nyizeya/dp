@@ -21,6 +21,16 @@ import me.nyizyea.designpatterns.structural.decorator.interfaces.impl.Sugar;
  *
  *     Concrete Decorator: These are classes that extend the functionality of the component by adding new behavior,
  *     either before or after delegating to the original object.
+ *
+ *                     Component
+ *                         |
+ *              -------------------
+ *             |                  |
+ *          Concrete           Decorator
+ *          Component             |
+ *                                |
+ *                        Concrete Decorator 1
+ *                        Concrete Decorator 2
  */
 public class Main {
     public static void main(String[] args) {
