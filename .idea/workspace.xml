@@ -4,76 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Null Object Pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/LightSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/LightSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/Switcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/Switcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/exercise/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/exercise/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/exercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/exercise/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/exercise/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/exercise/TaskSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/exercise/TaskSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/exercise/interfaces/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/exercise/interfaces/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/interfaces/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/interfaces/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/interfaces/impl/TurnOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/interfaces/impl/TurnOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/command/interfaces/impl/TurnOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/command/interfaces/impl/TurnOnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/AbstractCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/AbstractCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/CustomerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/CustomerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/NullCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/NullCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/null_object/RealCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/null_object/RealCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/observer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/observer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/observer/interfaces/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/observer/interfaces/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/observer/interfaces/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/observer/interfaces/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/observer/interfaces/impl/WeatherObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/observer/interfaces/impl/WeatherObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/observer/interfaces/impl/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/observer/interfaces/impl/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/interfaces/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/interfaces/impl/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/interfaces/impl/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/strategy/interfaces/impl/Substraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/strategy/interfaces/impl/Substraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/template/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/template/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/template/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/template/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/template/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/interfaces/ShoppingCartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/interfaces/ShoppingCartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/interfaces/ShoppingCartVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/interfaces/ShoppingCartVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/interfaces/impl/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/interfaces/impl/Chair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/interfaces/impl/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/interfaces/impl/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/behavioral/visitor/interfaces/impl/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/behavioral/visitor/interfaces/impl/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/enums/CarBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/enums/CarBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/enums/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/enums/CarType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/AbstractCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/factory/AbstractCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/CarFactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/factory/CarFactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/impl/ElectricCarCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/factory/impl/ElectricCarCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/factory/impl/PetrolCarCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/factory/impl/PetrolCarCarFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/interfaces/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/electric/ElectricFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/interfaces/impl/electric/ElectricFord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/electric/ElectricToyota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/interfaces/impl/electric/ElectricToyota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/petrol/PetrolFord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/interfaces/impl/petrol/PetrolFord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/abstract_factory/interfaces/impl/petrol/PetrolToyota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/abstract_factory/interfaces/impl/petrol/PetrolToyota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/builder/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/builder/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/AnimalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/enums/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/enums/AnimalType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/interfaces/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/interfaces/impl/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/interfaces/impl/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/factory/interfaces/impl/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/factory/interfaces/impl/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/prototype/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/prototype/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/prototype/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/prototype/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/prototype/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/singleton/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/DatabaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/singleton/DatabaseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/creational/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/creational/singleton/Main.java" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="chore: rename package">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/BeverageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/PlainBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/Sugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +91,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.behavioral.strategy.Main">
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.structural.decorator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.visitor.Main" />
       <module name="dp" />
@@ -172,19 +111,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="me.nyizyea.designpatterns.behavioral.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="me.nyizyea.designpatterns.creational.behavioral.iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.iterator.Main" />
-      <module name="dp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.behavioral.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="me.nyizyea.designpatterns.structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.structural.decorator.Main" />
+      <module name="dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.nyizyea.designpatterns.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.structural.decorator.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.behavioral.strategy.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.null_object.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.template.Main" />
-        <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.iterator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +181,7 @@
       <workItem from="1725807551426" duration="5123000" />
       <workItem from="1725886459872" duration="7217000" />
       <workItem from="1726066970463" duration="2373000" />
-      <workItem from="1726320393496" duration="648000" />
+      <workItem from="1726320393496" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
       <option name="closed" value="true" />
@@ -324,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725898219784</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="chore: rename package">
+      <option name="closed" value="true" />
+      <created>1726325284475</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726325284475</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +288,7 @@
     <MESSAGE value="feat: add simple exercise for Command pattern" />
     <MESSAGE value="feat: add Template pattern and key differences between itself and Strategy pattern" />
     <MESSAGE value="feat: add Null Object Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Null Object Pattern" />
+    <MESSAGE value="chore: rename package" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: rename package" />
   </component>
 </project>
