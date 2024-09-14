@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="chore: rename package">
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/BeverageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/PlainBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/decorator/interfaces/impl/Sugar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ced54045-1345-46a4-bddc-b2292f7dd6dd" name="Changes" comment="feat: add Decorator pattern">
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/facade/interfaces/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/nyizyea/designpatterns/structural/facade/interfaces/impl/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.structural.decorator.Main">
+  <component name="RunManager" selected="Application.me.nyizyea.designpatterns.structural.facade.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.visitor.Main" />
       <module name="dp" />
@@ -131,19 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="me.nyizyea.designpatterns.creational.behavioral.template.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.creational.behavioral.template.Main" />
-      <module name="dp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="me.nyizyea.designpatterns.creational.behavioral.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="me.nyizyea.designpatterns.structural.decorator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.structural.decorator.Main" />
       <module name="dp" />
@@ -157,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="me.nyizyea.designpatterns.structural.facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.nyizyea.designpatterns.structural.facade.Main" />
+      <module name="dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.nyizyea.designpatterns.structural.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.me.nyizyea.designpatterns.structural.facade.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.structural.decorator.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.behavioral.strategy.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.null_object.Main" />
-        <item itemvalue="Application.me.nyizyea.designpatterns.creational.behavioral.template.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +176,7 @@
       <workItem from="1725807551426" duration="5123000" />
       <workItem from="1725886459872" duration="7217000" />
       <workItem from="1726066970463" duration="2373000" />
-      <workItem from="1726320393496" duration="2460000" />
+      <workItem from="1726320393496" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add Singleton, Factory and AbstractFactory patterns">
       <option name="closed" value="true" />
@@ -271,7 +266,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726325284475</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: add Decorator pattern">
+      <option name="closed" value="true" />
+      <created>1726327042851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726327042851</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add Decorator pattern">
+      <option name="closed" value="true" />
+      <created>1726327230106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726327230106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +300,7 @@
     <MESSAGE value="feat: add Template pattern and key differences between itself and Strategy pattern" />
     <MESSAGE value="feat: add Null Object Pattern" />
     <MESSAGE value="chore: rename package" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: rename package" />
+    <MESSAGE value="feat: add Decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Decorator pattern" />
   </component>
 </project>
